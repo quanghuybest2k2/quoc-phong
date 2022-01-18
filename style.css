@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+body {
+  padding: 20px 50px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("./pexels-ylanite-koppens-776636.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.websiteHeading {
+  font-size: 35px;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 8px;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  letter-spacing: 3px;
+  margin: 30px 0;
+  background-color: rgb(77, 77, 77);
+  box-shadow: 0 0 12px black;
+}
+
+.exam-content {
+  background-color: rgb(77, 77, 77);
+  box-shadow: 0 0 12px black;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.exam-content + .exam-content {
+  margin-top: 4rem;
+}
+
+.exam-content > h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 32px;
+  padding: 15px 0;
+  color: rgb(115, 196, 115);
+  background-color: rgb(88, 51, 37);
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.exam-content > ul > li {
+  margin-top: 2rem;
+}
+
+.exam-content > ul > li > h4,
+.exam-content > ul > li > p {
+  font-size: 1.2rem;
+  color: rgb(223, 255, 107);
+  font-weight: unset;
+}
+.exam-content > ul > li > h4 {
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 2px solid rgb(223, 255, 107);
+}
+.exam-content > ul > li > p {
+  margin-top: 0.4rem;
+}
+
+.radio-control {
+  margin: 0.6rem 0;
+}
+.button{
+  text-align: center;
+  margin-top: 50px;
+ 
+}
+#submit {
+  background-color: #205886;
+  border-radius: 3px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+#reset{
+  background-color:cornflowerblue;
+  color:rgb(0, 0, 0);
+  border-radius: 3px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.question-result {
+  color: rgb(138, 255, 235);
+  font-size: 1.2rem;
+}
+
+.custom-control-label {
+  line-height: 1.5;
+}
+
+.quiz-header #count-down {
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 1px;
+  color: rgb(5, 5, 5);
+  border-radius: 5px;
+}
